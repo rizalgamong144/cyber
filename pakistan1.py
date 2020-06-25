@@ -56,14 +56,14 @@ logo = """\033[1;93m█████████
 \033[1;93m ██ ██
 \033[1;93m╔════════════════════════════════════════════╗
 \033[1;93m║\033[1;96m* \033[1;93mAuthor  \033[1;93m : \033[1;93mBrother•|Mr.RIZAL404\033[1;93m          ║
-\033[1;93m║\033[1;96m* \033[1;93mGitHub  \033[1;93m : \033[1;93m\033[4mhttps://Github.com/RizalCyber404/Cyber404\033[0m \033[1;93m║
-\033[1;93m║\033[1;96m* \033[1;93mWhatsApp \033[1;93m: \033[1;93m0888-0548-0605\033[1;93m                 ║
+\033[1;93m║\033[1;96m* \033[1;93mGitHub  \033[1;93m : \033[1;93m\033[4mhttps://Github.com/fatonicyber\033[0m \033[1;93m║
+\033[1;93m║\033[1;96m* \033[1;93mWhatsApp \033[1;93m: \033[1;93m0856-9101-5635\033[1;93m                 ║
 \033[1;93m╚════════════════════════════════════════════╝"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;96m[●] \x1b[1;93mSedang masuk \x1b[1;97m"+o),;j();time.sleep(1)
+		print("\r\033[1;96m[●] \x1b[1;93mSedang masuk \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
@@ -77,8 +77,8 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print "\033[1;96m ============================================================="
-print  """\033[1;96m [¤] \x1b[1;93mASSALAMUALAIKUM\x1b[1;96m  \033[1;96m   [¤] \x1b[1;93mWHATSAPP :088805480605\x1b[1;96m  
-\033[1;96m [¤] \x1b[1;93mSELAMAT DATANG\x1b[1;96m      [¤] \x1b[1;93mFACEBOOK : tools termux\x1b[1;96m  
+print  """\033[1;96m [¤] \x1b[1;93mASSALAMUALAIKUM\x1b[1;96m  \033[1;96m   [¤] \x1b[1;93mWHATSAPP : 088805480605\x1b[1;96m  
+\033[1;96m [¤] \x1b[1;93mSELAMAT DATAMG\x1b[1;96m      [¤] \x1b[1;93mFACEBOOK : tools termux\x1b[1;96m  
 \033[1;96m [¤] \x1b[1;93mTOOLS MR.RIZAL404\x1b[1;96m  [¤] \x1b[1;93mYOUTUBE  : Rizal Apasaja\x1b[1;96m"""
 print " \x1b[1;93m============================================================="
 
@@ -95,10 +95,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "yang bener dong"
-            os.system('xdg-open https://wa.me/6288805480605')
+            os.system('xdg-open https://wa.me/62088805480605')
     else:
         print "salah sayang!"
-        os.system('xdg-open https://wa.me/6288805480605')
+        os.system('xdg-open https://wa.me/62088805480605')
 
 def login():
 	os.system('clear')
